@@ -7,11 +7,17 @@
 </head>
 <body>
     <script>
-      (function display(){
-        document.write("Hi I am Janie");
+
+     (function display(){
+        document.write("Hi I am Janie<br>");
       })();
+      
       //using parameter
-      ()
+      
+      (function summation(a,b){
+        var sum=a+b;
+        document.write("Total :" +sum);
+      })(5,4);
       
     </script>
     
