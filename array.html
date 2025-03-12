@@ -7,12 +7,23 @@
 </head>
 <body>
     <script>
-        var name = ["Faria","Akash"];
-        document.write(name.length);
-        name.push("Mina");
-        document.write(name);
+        var names = ["Faria", "Akash"];
+        document.write(names.length);
 
-    </script>
+        document.write(names);
+        names.push("Mina");
+        names.push("Rita");
+        document.write(names.length);
+
+        names.pop();
+        document.write(names);
+
+        country1=["Bangladesh","India","Pakistan"];
+        country2=["Japan","Nepal","Afganistan"];
+        var country= country1.concat(country2);
+        document.write("<br>"+country);
+
+</script>
     
     
 </body>
