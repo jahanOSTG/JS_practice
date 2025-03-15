@@ -9,4 +9,3 @@ console.clear();
  var paragraph=document.getElementById("para");
  paragraph.innerHTML="Ok,Buy"
 
- var heading2
